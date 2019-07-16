@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+
+{% block body_block %}
+<div class="jumbotron">
+  <h1>WELCOME ON INDEX PAGE!</h1>
+  {{name|cut:'jha'}}
+  <!-- {{ name|upper}} -->
+  {{age|add:"20"}}
+
+</div>
+{% endblock %}
